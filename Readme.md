@@ -1,4 +1,4 @@
-First get code from https://github.com/Vivek06Sharma11/Oxygen-2-Inovation
+First get code from https://github.com/o2i-irus/Face-Recognition
 
 now install dependancies :
 	a. open cmd and write "pip install opencv-python"
