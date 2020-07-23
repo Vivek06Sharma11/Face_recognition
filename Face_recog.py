@@ -83,7 +83,7 @@ def predict(X_img_path, knn_clf=None, model_path=None, distance_threshold=0.9):
     return [(pred, loc) if rec else ("unknown", loc) for pred, loc, rec in zip(knn_clf.predict(faces_encodings), X_face_locations, are_matches)]
 
 if __name__ == "__main__":
-    video_capture = cv2.VideoCapture("tony.mp4")
+    video_capture = cv2.VideoCapture(0)
 
     while 1:
         # Grab a single frame of video

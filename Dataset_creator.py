@@ -1,9 +1,8 @@
 import cv2
 import os
 cam = cv2.VideoCapture(0)
-detector=cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
-ID=str(input('enter your id'))
+ID=str(input('enter person name'))
 num = int(input("No. of images you want to collect"))
 trainPath = os.path.join("train",ID)
 testPath = os.path.join("test")
