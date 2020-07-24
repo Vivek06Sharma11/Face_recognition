@@ -31,15 +31,11 @@ $ pip3 install scikit-learn
 
 """
 
-import math
-from sklearn import neighbors
 import os
 import os.path
 import cv2
 import pickle
 import face_recognition
-from face_recognition.face_recognition_cli import image_files_in_folder
-
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
 
