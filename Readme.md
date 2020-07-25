@@ -2,8 +2,9 @@ First get code from https://github.com/o2i-irus/Face-Recognition
 
 now install dependancies :
 	a. open cmd and write "pip install opencv-python"
-	b. "pip install face_recognition"
-	c. "pip install sklearn"
+	b. "pip install cmake"
+	c. "pip install face_recognition"
+	d. "pip install sklearn"
 
 go to our project folder and run "Dataset_creator.py"
 
